@@ -1,4 +1,4 @@
-DOCKER_REGISTRY ?= hub.docker.com
+DOCKER_REGISTRY ?= rothan
 IMAGE_NAME := $(shell basename `pwd` )
 IMAGE_VERSION = latest
 BUILD_NUMBER ?= unstable
